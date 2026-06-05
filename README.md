@@ -1,7 +1,6 @@
 # Jasmine Sullivan - C4 Programming Web Tech Portfolio
 
-A personal portfolio site built with HTML, Tailwind CSS and 
-vanilla JavaScript as part of the Cert IV IT (Programming) assessment.
+A personal portfolio site built with HTML, Tailwind CSS and vanilla JavaScript as part of the Web Dev unit for the Cert IV IT (Programming) assessment
 
 ## Colour Scheme
 
