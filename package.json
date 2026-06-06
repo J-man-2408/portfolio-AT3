@@ -1,0 +1,11 @@
+{
+  "name": "portfolio",
+  "version": "1.0.0",
+  "description": "A personal portfolio site built with HTML, Tailwind CSS and vanilla JavaScript as part of the Cert IV IT (Programming) assessment",
+  "scripts": {
+    "build": "node node_modules/tailwindcss/lib/cli.js -i ./src/input.css -o ./assets/css/site.css --watch"
+  },
+  "devDependencies": {
+    "tailwindcss": "^3.4.19"
+  }
+}
