@@ -4,8 +4,111 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Project Page</title>
+
+    <link rel="stylesheet" href="./assets/css/site.css">
 </head>
-<body>
-    
+<body class="bg-darkest text-lightest flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="bg-secondary text-darkest sticky top-0 z-50">
+        <nav class="flex items-center justify-between px-6 py-4">
+            <img src="assets/images/logo.jpg" alt="Website Logo" class="h-10 w-10 object-cover rounded">
+            <ul class="flex gap-6 text-sm font-medium">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="sample-projects.html">Sample Project</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main class="flex-1 px-6 py-20 w-full">
+ 
+        <h1 class="text-4xl font-bold mb-10 text-center">Projects</h1>
+ 
+        <!-- Featured images -->
+        <section class="max-w-5xl mx-auto mb-16">
+            <h2 class="sr-only">Featured Project Images</h2>
+            <ul class="grid grid-cols-1 md:grid-cols-2 gap-20">
+                <li>
+                    <img src="assets/images/project-1.png" alt="Screenshot of project one" class="w-full object-cover rounded-lg shadow">
+                </li>
+                <li>
+                    <img src="assets/images/project-2.jpg" alt="Screenshot of project two" class="w-full object-cover rounded-lg shadow">
+                </li>
+            </ul>
+        </section>
+ 
+        <!-- Project cards -->
+        <section>
+            <h2 class="sr-only">Project Cards</h2>
+            <ul class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+ 
+                <!-- Card 1 -->
+                <li class="bg-primary rounded-lg shadow flex flex-col">
+                    <header class="p-5 border-b border-lightest">
+                        <h3 class="text-xl font-bold text-lightest">This Project</h3>
+                    </header>
+                    <p class="p-5 flex-1 text-lightest">View the home page of this website</p>
+                    <footer class="p-5 border-t border-darkest bg-secondary rounded-b-lg">
+                        <a href="index.html" class="font-bold text-darkest hover:underline">Learn More →</a>
+                    </footer>
+                </li>
+ 
+                <!-- Card 2 -->
+                <li class="bg-primary rounded-lg shadow flex flex-col">
+                    <header class="p-5 border-b border-lightest">
+                        <h3 class="text-xl font-bold text-lightest">Sample Projects</h3>
+                    </header>
+                    <p class="p-5 flex-1 text-lightest">View the Sample Projects page</p>
+                    <footer class="p-5 border-t border-darkest bg-secondary rounded-b-lg">
+                        <a href="sample-projects.html" class="font-bold text-darkest hover:underline">Learn More →</a>
+                    </footer>
+                </li>
+ 
+                <!-- Card 3 -->
+                <li class="bg-primary rounded-lg shadow flex flex-col">
+                    <header class="p-5 border-b border-lightest">
+                        <h3 class="text-xl font-bold text-lightest">Resume</h3>
+                    </header>
+                    <p class="p-5 flex-1 text-lightest">View my Resume for these projects</p>
+                    <footer class="p-5 border-t border-darkest bg-secondary rounded-b-lg">
+                        <a href="resume.html" class="font-bold text-darkest hover:underline">Learn More →</a>
+                    </footer>
+                </li>
+ 
+                <!-- Card 4 -->
+                <li class="bg-primary rounded-lg shadow flex flex-col">
+                    <header class="p-5 border-b border-lightest">
+                        <h3 class="text-xl font-bold text-lightest">Contact Me</h3>
+                    </header>
+                    <p class="p-5 flex-1 text-lightest">View how to contact me about these projects</p>
+                    <footer class="p-5 border-t border-darkest bg-secondary rounded-b-lg">
+                        <a href="contact.html" class="font-bold text-darkest hover:underline">Learn More →</a>
+                    </footer>
+                </li>
+            </ul>
+        </section>
+    </main>
+ 
+    <!-- Footer -->
+    <footer class="bg-secondary text-darkest w-full p-6">
+        <section class="flex items-center justify-between gap-4">
+            <h2 class="sr-only">Footer</h2>
+            <img src="assets/images/logo.jpg" alt="Website Logo" class="h-10 w-10 object-cover rounded">
+            <nav aria-label="Footer navigation">
+                <ul class="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-sm font-medium">
+                    <li><a href="index.html" class="hover:underline font-bold">Website</a></li>
+                    <li><a href="https://components.dev.screencraft.net.au/" class="hover:underline font-bold">ScreenCraft Dev Site</a></li>
+                    <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:underline font-bold">NMTAFE</a></li>
+                </ul>
+            </nav>
+            <p class="text-sm text-right">
+                <a href="copyright.html" class="underline hover:text-primary">Copyright</a>
+                &copy; 2026 <br> Adrian Gould &amp; <br> Jasmine Sullivan.
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
