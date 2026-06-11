@@ -925,6 +925,10 @@ video {
   margin-bottom: 4rem;
 }
 
+.mb-12 {
+  margin-bottom: 3rem;
+}
+
 .block {
   display: block;
 }
@@ -1135,6 +1139,10 @@ video {
   padding: 2rem;
 }
 
+.p-4 {
+  padding: 1rem;
+}
+
 .px-16 {
   padding-left: 4rem;
   padding-right: 4rem;
@@ -1339,6 +1347,11 @@ video {
 .hover\:text-primary:hover {
   --tw-text-opacity: 1;
   color: rgb(90 127 157 / var(--tw-text-opacity, 1));
+}
+
+.hover\:text-lightest:hover {
+  --tw-text-opacity: 1;
+  color: rgb(234 239 244 / var(--tw-text-opacity, 1));
 }
 
 .hover\:underline:hover {
