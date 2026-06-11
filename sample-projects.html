@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,6 +8,7 @@
 
     <link rel="stylesheet" href="./assets/css/site.css">
 </head>
+
 <body class="bg-darkest text-lightest flex flex-col min-h-screen">
     <!-- Header -->
     <header class="bg-secondary text-darkest sticky top-0 z-50">
@@ -22,14 +24,14 @@
             </ul>
         </nav>
     </header>
- 
+
     <main class="flex-1 max-w-6xl mx-auto px-6 py-20 w-full">
- 
+
         <h1 class="text-4xl font-bold mb-10 text-center pb-10">Sample Project</h1>
 
         <section class="flex flex-col md:flex-row gap-10">
             <h2 class="sr-only">API Sample Project</h2>
- 
+
             <section class="flex-1 bg-primary rounded-lg p-6 shadow">
                 <h2 class="text-secondary text-xl font-bold mb-6">Animal &amp; Dog Breed Explorer</h2>
                 <form id="api-form" class="flex flex-col gap-4">
@@ -46,56 +48,47 @@
                             </label>
                         </div>
                     </fieldset>
- 
+
                     <label for="user-input" class="text-lightest font-semibold">Enter an animal or dog breed name:
                     </label>
-                    <input
-                        type="text"
-                        id="user-input"
-                        name="user-input"
-                        placeholder="e.g. fox or golden retriever"
-                        class="w-full px-4 py-2 rounded bg-darkest text-lightest border border-secondary focus:outline-none focus:border-lightest"
-                    >
-                    <button
-                        type="submit"
-                        class="bg-secondary text-darkest font-bold py-2 px-6 rounded hover:opacity-80 transition-opacity"
-                    >
+                    <input type="text" id="user-input" name="user-input" placeholder="e.g. fox or golden retriever"
+                        class="w-full px-4 py-2 rounded bg-darkest text-lightest border border-secondary focus:outline-none focus:border-lightest">
+                    <button type="submit"
+                        class="bg-secondary text-darkest font-bold py-2 px-6 rounded hover:opacity-80 transition-opacity">
                         Generate Result
                     </button>
                 </form>
- 
+
                 <!-- Results area -->
                 <section id="response-area" class="mt-6">
                     <h3 class="text-secondary font-bold mb-2">Results</h3>
                     <p id="response-message" class="text-lightest leading-relaxed"></p>
                 </section>
             </section>
- 
+
             <section class="flex-1 flex flex-col gap-8">
                 <h2 class="sr-only">Project Details</h2>
- 
+
                 <section>
                     <h2 class="text-secondary text-xl font-bold mb-4">Overview</h2>
-                    <p class="text-lightest leading-relaxed"> This sample project included 
-                        pulling data from an API and displaying it in an appropriate manner. 
-                        My two API's of choice were Dog Breeds and Animals. Where you can 
-                        get the kingdom, diet and habitat of the animals or the lifespan, 
+                    <p class="text-lightest leading-relaxed"> This sample project included
+                        pulling data from an API and displaying it in an appropriate manner.
+                        My two API's of choice were Dog Breeds and Animals. Where you can
+                        get the kingdom, diet and habitat of the animals or the lifespan,
                         energy rating (out of 5) and the shedding rating (out of 5) for the
-                        dog breed. 
+                        dog breed.
                     </p>
                 </section>
- 
+
                 <section>
                     <h2 class="text-secondary text-xl font-bold mb-4">Evidence</h2>
-                    <img
-                        src="assets/images/project-3.jpg"
-                        alt="Evidence screenshot of the sample project"
+                    <img src="assets/images/project-3.jpg" alt="Evidence screenshot of the sample project"
                         class="w-full rounded-lg shadow">
                 </section>
             </section>
         </section>
     </main>
- 
+
     <!-- Footer -->
     <footer class="bg-secondary text-darkest w-full p-6">
         <section class="flex items-center justify-between gap-4">
@@ -104,8 +97,10 @@
             <nav aria-label="Footer navigation">
                 <ul class="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-sm font-medium">
                     <li><a href="index.html" class="hover:underline font-bold">Website</a></li>
-                    <li><a href="https://components.dev.screencraft.net.au/" class="hover:underline font-bold">ScreenCraft Dev Site</a></li>
-                    <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:underline font-bold">NMTAFE</a></li>
+                    <li><a href="https://components.dev.screencraft.net.au/"
+                            class="hover:underline font-bold">ScreenCraft Dev Site</a></li>
+                    <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:underline font-bold">NMTAFE</a>
+                    </li>
                 </ul>
             </nav>
             <p class="text-sm text-right">
@@ -117,4 +112,5 @@
 
     <script src="assets/js/main.js"></script>
 </body>
+
 </html>
