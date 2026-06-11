@@ -929,6 +929,10 @@ video {
   margin-bottom: 3rem;
 }
 
+.mt-6 {
+  margin-top: 1.5rem;
+}
+
 .block {
   display: block;
 }
@@ -1059,6 +1063,10 @@ video {
 
 .gap-16 {
   gap: 4rem;
+}
+
+.gap-8 {
+  gap: 2rem;
 }
 
 .space-y-2 > :not([hidden]) ~ :not([hidden]) {
@@ -1313,6 +1321,10 @@ video {
   text-decoration-line: underline;
 }
 
+.accent-secondary {
+  accent-color: #a9bed0;
+}
+
 .opacity-50 {
   opacity: 0.5;
 }
@@ -1356,6 +1368,10 @@ video {
 
 .hover\:underline:hover {
   text-decoration-line: underline;
+}
+
+.hover\:opacity-80:hover {
+  opacity: 0.8;
 }
 
 .focus\:border-lightest:focus {
