@@ -70,9 +70,6 @@ sendBtn.addEventListener('click', function () {
     const messageValid = validateField(messageInput, messagePattern, messageError);
  
     if (nameValid && emailValid && messageValid) {
-        const mailto = `mailto:20147180@tafe.wa.edu.au?subject=Portfolio Contact Form&body=Name: ${nameInput.value}%0AEmail: ${emailInput.value}%0A%0AMessage: ${messageInput.value}`;
-        window.location.href = mailto;
-
         successMsg.classList.remove('hidden');
         nameInput.value    = '';
         emailInput.value   = '';
@@ -80,6 +77,10 @@ sendBtn.addEventListener('click', function () {
         sendBtn.disabled   = true;
         sendBtn.classList.add('opacity-50', 'cursor-not-allowed');
     }
+
+    setTimeout(function () {
+        successMsg.classList.add('hidden');
+    }, 5000);
 });
 
 
