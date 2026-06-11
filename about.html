@@ -4,8 +4,46 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>About Page</title>
+
+    <link rel="stylesheet" href="./assets/css/site.css">
 </head>
+
+<body class="bg-darkest text-lightest flex flex-col min-h-screen">
+    <!-- Header -->
+    <header class="bg-secondary text-darkest sticky top-0 z-50">
+        <nav class="flex items-center justify-between px-6 py-4">
+            <img src="assets/images/logo.jpg" alt="Website Logo" class="h-10 w-10 object-cover rounded">
+            <ul class="flex gap-6 text-sm font-medium">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="contact.html">Contact</a></li>
+                <li><a href="resume.html">Resume</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="sample-projects.html">Sample Project</a></li>
+            </ul>
+        </nav>
+    </header>
 <body>
-    
+    <main>
+
+    </main>
+
+    <footer class="bg-secondary text-darkest w-full p-6">
+        <section class="flex items-center justify-between gap-4">
+            <h2 class="sr-only">Footer</h2>
+            <img src="assets/images/logo.jpg" alt="Website Logo" class="h-10 w-10 object-cover rounded">
+            <nav aria-label="Footer navigation">
+                <ul class="flex flex-col md:flex-row items-center gap-2 md:gap-6 text-sm font-medium">
+                    <li><a href="index.html" class="hover:underline font-bold">Website</a></li>
+                    <li><a href="https://components.dev.screencraft.net.au/" class="hover:underline font-bold">ScreenCraft Dev Site</a></li>
+                    <li><a href="https://www.northmetrotafe.wa.edu.au/" class="hover:underline font-bold">NMTAFE</a></li>
+                </ul>
+            </nav>
+            <p class="text-sm text-right">
+                <a href="copyright.html" class="underline hover:text-primary">Copyright</a>
+                &copy; 2026 <br> Adrian Gould &amp; <br> Jasmine Sullivan.
+            </p>
+        </section>
+    </footer>
 </body>
 </html>
